@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { TypeAnimation } from 'react-type-animation';
+// import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
 
 const HeroSection = () => {
@@ -12,7 +12,7 @@ const HeroSection = () => {
                 <h1 className='text-pink-400 mb-4 text-2xl sm:text-4xl lg:text-4xl font-extrabold'>
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-400'>
                         Hello, I'm {""}</span>
-                        <TypeAnimation
+                        {/* <TypeAnimation
                         sequence={[
                         // Same substring at the start will only be typed out once, initially
                         'Kristen',
@@ -27,7 +27,7 @@ const HeroSection = () => {
                         wrapper="span"
                         speed={50}
                         repeat={Infinity}
-                        />
+                        /> */}
                 </h1>
                 <p className='text-pink-200 mb-6 sm:text-lg'>A coder, crochet artist, and computer enthusiast!</p>
                 <div className='mb-6'>
