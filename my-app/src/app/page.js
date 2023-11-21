@@ -12,9 +12,9 @@ export default function Home() {
       {/* <link rel="icon" href="/favicon.ico" sizes="any" />
       <Navbar /> */}
       <div className='container mt-24 mx-auto px-12 py-4'>
-        <HeroSection />
-        {/* <AboutSection />
-        <ProjectSection />
+        {/* <HeroSection /> */}
+         <AboutSection />
+        {/*<ProjectSection />
         <EmailSection /> */}
         
      </div>
