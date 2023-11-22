@@ -23,7 +23,7 @@ const tabData = [
         content: (
             <ul>
                 <li className='text-lg'>California State University, East Bay</li>
-                <li><em>`Bachelor's Degree in English`</em></li>
+                <li><em>`Bachelor&apos;s Degree in English`</em></li>
                 <li className='text-lg mt-4'>Online Courses</li>
                 <li><em>Certifications in JavaScript, React, and responsive web development.</em></li>
             </ul>
