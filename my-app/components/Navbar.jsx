@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import NavLink from "./NavLink";
+
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import Image from "next/image";
@@ -74,7 +74,26 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <ul className="flex flex-col py-4 items-center">
+          <li>
+            <Link
+              href={"/projects"}
+              className="block py-2 pl-3 pr-4 text-dark font-semibold sm:text-xl md:p-0 hover:text-primary border-b border-primary"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={"/resume"}
+              className="block py-2 pl-3 pr-4 text-dark font-semibold sm:text-xl md:p-0 hover:text-primary border-b border-primary"
+            >
+              Resume
+            </Link>
+          </li>
+        </ul>
+      ) : null}
     </nav>
   );
 };
