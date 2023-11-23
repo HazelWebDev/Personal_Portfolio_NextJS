@@ -1,5 +1,6 @@
 import { Agbalumo, Dosis } from "next/font/google";
 import "./globals.css";
+import Navbar from "../../components/Navbar";
 
 const agbalumo = Agbalumo({
   subsets: ["latin"],
@@ -19,6 +20,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <header>
+        <Navbar />
+      </header>
       <body className={`${agbalumo.variable} ${dosis.variable} font-primary`}>
         {children}
       </body>

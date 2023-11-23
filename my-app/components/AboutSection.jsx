@@ -86,7 +86,7 @@ const AboutSection = () => {
 
   return (
     <section className='text-white '>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-8 xl:px-16 sm:items-center'>
         <Image 
         className="transform rotate-45" src="/FlowerLogo1 .png" alt="Kristen, but cartoon version" width={500} height={500} />
         <div className='mt-4 md:mt-0 text-left'>
@@ -96,7 +96,7 @@ const AboutSection = () => {
               front-end development: the imaginative synergy between art and technology. The overflowing potential of technology
               collides with creativity, resulting in a truly awesome career which called to me. I jumped toward it with no hesitation!
             </p>
-            <div className='flex flex-row mt-8'>
+            <div className='flex flex-row mt-8 sm:text-left'>
                 <TabButton 
                 selectTab={() => handleTabChange("skills")} 
                 active={tab === "skills"} 
