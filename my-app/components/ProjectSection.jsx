@@ -28,7 +28,7 @@ const projectsData = [
 const ProjectSection = () => {
   return (
     <>
-      <h2 className="text-4xl font-bold text-pink-400 mb-4 border-b border-secondary border-3 sm:text-lg sm:text-center">
+      <h2 className="text-4xl text-center font-bold text-primary mb-12 border-b border-secondary">
         Some of my projects
       </h2>
       <div>
