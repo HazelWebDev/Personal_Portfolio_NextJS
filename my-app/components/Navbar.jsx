@@ -7,10 +7,6 @@ import Image from "next/image";
 
 const navLinks = [
   {
-    title: "Projects",
-    path: "#projects",
-  },
-  {
     title: "Resume",
     path: "/resume",
   },
