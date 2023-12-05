@@ -52,14 +52,6 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-dark">
             <li>
               <Link
-                href={"/projects"}
-                className="block py-2 pl-3 pr-4 text-dark font-semibold sm:text-xl md:p-0 hover:text-primary border-b border-primary"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
                 href={"/resume"}
                 className="block py-2 pl-3 pr-4 text-dark font-semibold sm:text-xl md:p-0 hover:text-primary border-b border-primary"
               >
